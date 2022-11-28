@@ -1,44 +1,70 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: white;
-    font-family: sans-serif;
+  background-color: white;
+  font-family: sans-serif;
 }
 
 /* Navbar */
+
 .navbar {
-    background-color: white;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .logo {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 .udemy-logo {
-    width: 97px;
-    height: 44px;
+  width: 97px;
+  height: 44px;
 }
+
 .search {
-    width: 700px;
+  width: 700px;
+}
+.search-bar {
+  border-radius: 2em !important;
+  background-color: #f7f9fa !important;
 }
 
 .nav-item {
-    margin: 0 8px;
+  margin: 0 8px;
+}
+
+.nav-link {
+  color: #000 !important;
+}
+.nav-link:hover {
+  color: #5624d0 !important;
 }
 
 .fa-cart-shopping {
-    position: relative;
-    top: 10px;
+  position: relative;
+  top: 10px;
+}
+.fa-cart-shopping:hover {
+  color: #5624d0 !important;
 }
 
 .nav-btn {
-    border-radius: 0;
+  border-radius: 0 !important;
+  background-color: #fff !important;
+}
+.nav-btn:hover {
+  background-color: #f7f9fa !important;
+  color: #000 !important;
+}
+
+.nav-btn-second {
+  background-color: #000 !important;
+  color: #fff !important;
 }
 
 /* Main Section */
@@ -46,102 +72,387 @@ body {
 /* Hero Section */
 
 .hero-image-container {
-    position: relative;
-    left: 5%;
+  position: relative;
+  left: 5%;
+  width: 95%;
 }
 
 .hero-text-container {
-    position: absolute;
-    bottom: 45%;
-    left: 5%;
-    background-color: white;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
-    padding: 1.2rem;
+  position: absolute;
+  bottom: 45%;
+  left: 5%;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+  padding: 1.2rem;
 }
 
 .hero-text-container h1 {
-    font-weight: 600;
-    font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .hero-text-container p {
-    width: 87%;
-    font-size: 1.2rem;
-    font-weight: 400;
+  width: 87%;
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
 /* Courses Section */
 
 .courses-section {
-    margin: 3rem;
+  margin: 3rem;
 }
 
-.courses-text-container{
-    margin: 0 3rem;
+.courses-text-container {
+  margin: 0 3rem;
 }
 
 .courses-text-container h1 {
-    font-weight: 600;
-    font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
 }
 .courses-text-container p {
-    font-size: 1.2rem;
-    font-weight: 400;
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
 .courses-link-item {
-    text-decoration: none;
-    color: rgb(75, 74, 74);
-    padding: 0.5rem;
-    font-weight: 600;
+  text-decoration: none;
+  color: rgb(75, 74, 74);
+  padding: 0.5rem;
+  font-weight: 600;
 }
 
 .courses-link-item:first-of-type {
-    color: #000;
-    padding-left: 0;
+  color: #000;
+  padding-left: 0;
 }
 
 .carousel-container {
-    border: 1px solid;
-    margin: 1rem 3rem;
-    padding: 2rem 1.5rem;
+  border: 1px solid;
+  margin: 1rem 3rem;
+  padding: 2rem 1.5rem;
 }
 
 .carousel-text-container h1 {
-    font-size: 1.5rem;
-    font-weight: 700;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 .carousel-text-container p {
-    width: 60%;
-}
-
-.python-btn {
-    background-color: white;
-    color: #000;
-    padding: 10px;
-}
-
-.python-img {
-    display: inline-block;
-    width: 250px;
-    height: 200px;
-    padding: 1.5rem 0.5rem;
+  width: 100%;
 }
 
 .carousel-control-next-icon {
-    position: relative;
-    left: 5rem;
-    color: white;
-    background-color: #000;
-    border-radius: 50%;
-    padding: 1.5rem;
+  position: relative;
+  left: 5.8rem;
+  color: white;
+  background-color: #000;
+  border-radius: 50%;
+  padding: 1.2rem;
 }
 .carousel-control-prev-icon {
-    position: relative;
-    right: 5rem;
-    color: white;
-    background-color: #000;
-    border-radius: 50%;
-    padding: 1.5rem;
+  position: relative;
+  right: 5.8rem;
+  color: white;
+  background-color: #000;
+  border-radius: 50%;
+  padding: 1.2rem;
+}
+
+.python-btn {
+  background-color: white;
+  color: #000;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.python-img {
+  display: inline-block;
+  width: 250px;
+  height: 200px;
+  padding: 1.5rem 0.5rem;
+}
+.python-img h1 {
+  font-size: 1rem;
+}
+
+.tutor {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 0;
+}
+
+.rating {
+  color: #b4690e;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.fa-star,
+.fa-star-half-stroke {
+  font-size: 10px;
+  color: #ea952e;
+}
+
+.number-of-users {
+  color: gray;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 0.5;
+}
+
+.bestseller {
+  background-color: #eceb98;
+  margin: 0;
+  padding: 0.3rem;
+  font-size: 12px;
+  font-weight: 700;
+  display: inline;
+  width: 50px;
+}
+.bestseller-hidden {
+  visibility: hidden;
+}
+
+/* View Courses Section */
+
+.other-courses {
+  margin: 3rem 5.8rem 7rem;
+}
+.other-courses-header {
+  font-weight: 700;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.other-courses-img {
+  width: 263px;
+}
+
+/* Featured Topics Section */
+
+.featured-topics {
+  padding: 3rem 5.8rem;
+  background-color: #f7f9fa;
+}
+
+.featured-topics h1 {
+  padding-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.featured-topics-btn {
+  background-color: #f7f9fa;
+  color: #000;
+  padding: 10px;
+  font-weight: 700;
+}
+
+td {
+  padding-right: 12rem;
+  padding-bottom: 1.5rem;
+}
+td a {
+  color: #5624d0;
+  font-weight: 700;
+}
+td span {
+  color: gray;
+}
+
+th {
+  padding-right: 12rem;
+  padding-bottom: 1.5rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+/* Instructor Section */
+
+.instructor-section {
+  margin: 5rem;
+}
+
+.instructor-image-container {
+  display: inline-block;
+  margin-left: 12rem;
+}
+
+.instructor-text-container {
+  display: inline-block;
+  margin-left: 5rem;
+  width: 50%;
+  position: relative;
+  top: 4.5rem;
+}
+.instructor-text-container h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+}
+.instructor-text-container p {
+  width: 55%;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.instructor-btn {
+  background-color: #000;
+  color: white;
+  padding: 10px;
+  font-weight: 700;
+}
+
+/* Supporters Section */
+
+.supporters-section {
+  padding: 3rem 5.8rem;
+  background-color: #f7f9fa;
+}
+
+.supporters-text-container {
+  text-align: center;
+}
+
+.supporters-text-container h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.supporters-text-container p {
+  font-weight: 500;
+}
+
+.supporters-logos {
+  margin-right: 7rem;
+}
+
+/* Udemy Business Section */
+
+.udemy-business {
+  margin: 5rem;
+  margin-top: 10rem;
+}
+
+.udemy-business-logo {
+  width: 177px;
+  height: 40px;
+}
+
+.ud-text-container {
+  display: inline-block;
+  margin-left: 13rem;
+  width: 50%;
+}
+
+.ud-text-container p {
+  width: 58%;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #000;
+}
+
+.ud-image-container {
+  display: inline-block;
+  position: relative;
+  left: -12rem;
+  bottom: 4.5rem;
+}
+
+.ud-btn {
+  background-color: #000;
+  color: white;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.transform-image-container {
+  display: inline-block;
+  margin-left: 12rem;
+}
+
+.transform-text-container {
+  display: inline-block;
+  margin-left: 5rem;
+  width: 50%;
+  position: relative;
+  top: 4.5rem;
+}
+.transform-text-container h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 2.3rem;
+  width: 60%;
+}
+.transform-text-container p {
+  width: 57%;
+  font-size: 1.15rem;
+  font-weight: 400;
+  color: #000;
+}
+
+.transform-btn {
+  background-color: #000;
+  color: white;
+  padding: 10px;
+  font-weight: 700;
+}
+
+/* Footer */
+
+footer {
+  padding: 3rem 4rem 1rem;
+  background-color: rgb(26, 25, 25);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__row__1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer__row__1 p {
+  margin-bottom: 0.2rem;
+}
+
+.footer-links {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-links:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.column__4 {
+  visibility: hidden;
+}
+
+.footer-lang-btn {
+  background-color: rgb(26, 25, 25);
+  color: white;
+  padding: 0.5rem 1.8rem;
+  border: 1px solid #fff;
+}
+.footer-lang-btn:hover {
+  background-color: rgb(44, 43, 43);
+}
+
+.footer-logo {
+  width: 96px;
+  height: 60px;
+}
+
+.footer__row__2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+.footer-copyright {
+  padding-top: 1.8rem;
+  font-size: 12px;
 }

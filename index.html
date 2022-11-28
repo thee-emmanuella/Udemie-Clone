@@ -1,120 +1,598 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- External CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- External CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="shortcut icon" href="assets\images\favicon-32x32.png" type="image/x-icon">
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/026e0f9978.js" crossorigin="anonymous"></script>
+  <title>Online Courses - Learn Anything, On Your Schedule | Udemy</title>
 </head>
+
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="assets\images\udemy-logo.png" alt="Udemy logo" class="udemy-logo"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Categories</a>
-              </li>
-              <li class="d-flex search" role="search">
-                <input class="form-control me-2 search-bar" type="search" placeholder="Search for anything" aria-label="Search">
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Udemy Business</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Teach on Udemy</a>
-              </li>
-              <li class="nav-item"><i class="fa-solid fa-cart-shopping"></i></li>
-              <li class="nav-item"><button class="btn btn-outline-dark nav-btn" type="submit">Log in</button></li>
-              <li class="nav-item"><button class="btn btn-outline-dark nav-btn" type="submit">Sign up</button></li>
-              <li class="nav-item"><button class="btn btn-outline-dark nav-btn" type="submit"><i class="fa-solid fa-globe"></i></button></li>
-            </ul>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="assets\images\udemy-logo.png" alt="Udemy logo" class="udemy-logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Categories</a>
+          </li>
+          <li class="d-flex search" role="search">
+            <input class="form-control me-2 search-bar" type="search" placeholder="&#128269;Search for anything"
+              aria-label="Search">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Udemy Business</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Teach on Udemy</a>
+          </li>
+          <li class="nav-item"><i class="fa-solid fa-cart-shopping"></i></li>
+          <li class="nav-item"><button class="btn btn-outline-dark nav-btn" type="submit">Log in</button></li>
+          <li class="nav-item"><button class="btn btn-outline-dark nav-btn nav-btn-second" type="submit">Sign
+              up</button></li>
+          <li class="nav-item"><button class="btn btn-outline-dark nav-btn" type="submit"><i
+                class="fa-solid fa-globe"></i></button></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="hero-image-container">
+        <img src="assets\images\hero-image.jpg" alt="hero image">
+        <div class="hero-text-container">
+          <h1>Learning that gets you</h1>
+          <p>Skills for your present (and your future). Get started today.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="courses-section">
+      <div class="courses-text-container">
+        <h1>A broad selection of courses</h1>
+        <p>Choose from 213,000 online video courses with new additions published every month</p>
+
+        <div class="courses-links">
+          <a href="#" class="courses-link-item">Python</a>
+          <a href="#" class="courses-link-item">Excel</a>
+          <a href="#" class="courses-link-item">Web Development</a>
+          <a href="#" class="courses-link-item">JavaScript</a>
+          <a href="#" class="courses-link-item">Data Science</a>
+          <a href="#" class="courses-link-item">AWS Certification</a>
+          <a href="#" class="courses-link-item">Drawing</a>
+        </div>
+      </div>
+
+      <div class="carousel-container">
+        <div class="carousel-text-container">
+          <h1>Expand your career opportunities with Python</h1>
+          <p>Take one of Udemy’s range of Python courses and learn how to code using this incredibly useful language.
+            Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine
+            learning.
+            You’ll learn how to build everything from games to sites to apps.
+            Choose from a range of courses that will appeal to...
+          </p>
+
+          <button class="python-btn">Explore Python</button>
+          <!-- Carousel -->
+          <div id="carouselExampleControlsNoTouching1" class="carousel slide" data-bs-touch="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="python-img">
+                  <img src="assets\images\394676_ce3d_5.jpg" class="d-block w-100" alt="python image">
+                  <h1>Learn Python: The Complete Python Programming Course</h1>
+                  <p class="tutor">Avinash Jain, The Codex</p>
+                  <p class="rating">4.3
+                    <span class="stars">
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                    </span>
+                    <span class="number-of-users">(3,968)</span>
+                  </p>
+                  <p><strong>&#8358;3,200</strong> <span><s>&#8358;14,900</s></span></p>
+                  <p class="bestseller bestseller-hidden">Bestseller</p>
+                </div>
+                <div class="python-img">
+                  <img src="assets\images\396876_cc92_7.jpg" class="d-block w-100" alt="python image">
+                  <h1>Learning Python for Data Analysis and Visualization</h1>
+                  <p class="tutor">Jose Portilla</p>
+                  <p class="rating">4.3
+                    <span class="stars">
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                    </span>
+                    <span class="number-of-users">(18,478)</span>
+                  </p>
+                  <p><strong>&#8358;3,900</strong> <span><s>&#8358;29,900</s></span></p>
+                  <p class="bestseller">Bestseller</p>
+                </div>
+                <div class="python-img">
+                  <img src="assets\images\405878_e5a0_3.jpg" class="d-block w-100" alt="python image">
+                  <h1>Python for Beginners - Learn Programming from scratch</h1>
+                  <p class="tutor">Edwin Diaz, Coding Faculty Solutions</p>
+                  <p class="rating">4.3
+                    <span class="stars">
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                    </span>
+                    <span class="number-of-users">(2,243)</span>
+                  </p>
+                  <p><strong>&#8358;3,200</strong> <span><s>&#8358;14,900</s></span></p>
+                  <p class="bestseller bestseller-hidden">Bestseller</p>
+                </div>
+                <div class="python-img">
+                  <img src="assets\images\482754_7146_6.jpg" class="d-block w-100" alt="python image">
+                  <h1>Python From Scratch & Selenium WebDriver QA...</h1>
+                  <p class="tutor">Admas Kinfu</p>
+                  <p class="rating">4.5
+                    <span class="stars">
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                    </span>
+                    <span class="number-of-users">(2,200)</span>
+                  </p>
+                  <p><strong>&#8358;2,500</strong> <span><s>&#8358;19,900</s></span></p>
+                  <p class="bestseller">Bestseller</p>
+                </div>
+                <div class="python-img">
+                  <img src="assets\images\519554_da68_6.jpg" class="d-block w-100" alt="python image">
+                  <h1>Teach Your Kids to Code: Learn to Program Python at Any...</h1>
+                  <p class="tutor">Bryson Payne</p>
+                  <p class="rating">4.5
+                    <span class="stars">
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                    </span>
+                    <span class="number-of-users">(9,021)</span>
+                  </p>
+                  <p><strong>&#8358;3,200</strong> <span><s>&#8358;6,500</s></span></p>
+                  <p class="bestseller">Bestseller</p>
+                </div>
+              </div>
+              
+              <!-- Second Carousel Item -->
+              <div class="carousel-item">
+                <div class="python-img">
+                  <img src="assets\images\519554_da68_6.jpg" class="d-block w-100" alt="python image">
+                  <h1>Teach Your Kids to Code: Learn to Program Python at Any...</h1>
+                  <p class="tutor">Bryson Payne</p>
+                  <p class="rating">4.5
+                    <span class="stars">
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                    </span>
+                    <span class="number-of-users">(9,021)</span>
+                  </p>
+                  <p><strong>&#8358;3,200</strong> <span><s>&#8358;6,500</s></span></p>
+                  <p class="bestseller">Bestseller</p>
+                </div>
+                <div class="python-img">
+                  <img src="assets\images\535622_3bc0.jpg" class="d-block w-100" alt="python image">
+                  <h1>Python for Data Structures, Algorithms, and Interviews!</h1>
+                  <p class="tutor">Jose Portilla</p>
+                  <p class="rating">4.5
+                    <span class="stars">
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                    </span>
+                    <span class="number-of-users">(10,943)</span>
+                  </p>
+                  <p><strong>&#8358;3,200</strong> <span><s>&#8358;24,900</s></span></p>
+                  <p class="bestseller bestseller-hidden">Bestseller</p>
+                </div>
+                <div class="python-img">
+                  <img src="assets\images\543600_64d1_4.jpg" class="d-block w-100" alt="python image">
+                  <h1>Automate the Boring Stuff with Python Programming</h1>
+                  <p class="tutor">AI Sweigart</p>
+                  <p class="rating">4.7
+                    <span class="stars">
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                    </span>
+                    <span class="number-of-users">(103,795)</span>
+                  </p>
+                  <p><strong>&#8358;3,900</strong> <span><s>&#8358;10,500</s></span></p>
+                  <p class="bestseller bestseller-hidden">Bestseller</p>
+                </div>
+                <div class="python-img">
+                  <img src="assets\images\558096_af58_7.jpg" class="d-block w-100" alt="python image">
+                  <h1>Python 3 For Offensive PenTest: A Complete Practic...</h1>
+                  <p class="tutor">Hussam Khrais</p>
+                  <p class="rating">4.6
+                    <span class="stars">
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                    </span>
+                    <span class="number-of-users">(1,596)</span>
+                  </p>
+                  <p><strong>&#8358;2,900</strong> <span><s>&#8358;14,900</s></span></p>
+                  <p class="bestseller bestseller-hidden">Bestseller</p>
+                </div>
+                <div class="python-img">
+                  <img src="assets\images\567828_67d0.jpg" class="d-block w-100" alt="python image">
+                  <h1>2022 Complete Python Bootcamp From Zero to Hero...</h1>
+                  <p class="tutor">Jose Portilla</p>
+                  <p class="rating">4.6
+                    <span class="stars">
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                    </span>
+                    <span class="number-of-users">(443,103)</span>
+                  </p>
+                  <p><strong>&#8358;4,500</strong> <span><s>&#8358;34,900</s></span></p>
+                  <p class="bestseller bestseller-hidden">Bestseller</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev carousel-btn-left" type="button"
+              data-bs-target="#carouselExampleControlsNoTouching1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next carousel-btn-right" type="button"
+              data-bs-target="#carouselExampleControlsNoTouching1" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
-    </nav>
+      </div>
+    </section>
 
-    <main>
-        <section class="hero">
-            <div class="hero-image-container">
-                <img src="assets\images\hero-image.jpg" alt="hero image">
-                <div class="hero-text-container">
-                    <h1>Learning that gets you</h1>
-                    <p>Skills for your present (and your future). Get started today.</p>
-                </div>
+    <section class="other-courses">
+      <h4 class="other-courses-header">Students are viewing</h4>
+
+      <!-- Carousel -->
+      <div id="carouselExampleControlsNoTouching2" class="carousel slide" data-bs-touch="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="python-img other-courses-img">
+              <img src="assets\images\1565838_e54e_16.jpg" class="d-block w-100" alt="python image">
+              <h1>The Complete 2023 Web Development Bootcamp</h1>
+              <p class="tutor">Dr. Angela Yu</p>
+              <p class="rating">4.7
+                <span class="stars">
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+                <span class="number-of-users">(240,356)</span>
+              </p>
+              <p><strong>&#8358;3,900</strong> <span><s>&#8358;34,900</s></span></p>
+              <p class="bestseller">Bestseller</p>
             </div>
-        </section>
-
-        <section class="courses-section">
-            <div class="courses-text-container">
-                <h1>A broad selection of courses</h1>
-                <p>Choose from 213,000 online video courses with new additions published every month</p>
-            
-                <div class="courses-links">
-                    <a href="#" class="courses-link-item">Python</a>
-                    <a href="#" class="courses-link-item">Excel</a>
-                    <a href="#" class="courses-link-item">Web Development</a>
-                    <a href="#" class="courses-link-item">JavaScript</a>
-                    <a href="#" class="courses-link-item">Data Science</a>
-                    <a href="#" class="courses-link-item">AWS Certification</a>
-                    <a href="#" class="courses-link-item">Drawing</a>
-                </div>
+            <div class="python-img other-courses-img">
+              <img src="assets\images\2776760_f176_10.jpg" class="d-block w-100" alt="python image">
+              <h1>100 Days of Code: The Complete Python Pro Bootcamp for 2023</h1>
+              <p class="tutor">Dr. Angela Yu</p>
+              <p class="rating">4.7
+                <span class="stars">
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+                <span class="number-of-users">(155,103)</span>
+              </p>
+              <p><strong>&#8358;3,500</strong> <span><s>&#8358;29,900</s></span></p>
+              <p class="bestseller">Bestseller</p>
             </div>
-
-            <div class="carousel-container">
-                <div class="carousel-text-container">
-                    <h1>Expand your career opportunities with Python</h1>
-                    <p>Take one of Udemy’s range of Python courses and learn how to code using this incredibly useful language. 
-                        Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. 
-                        You’ll learn how to build everything from games to sites to apps. 
-                        Choose from a range of courses that will appeal to...
-                    </p>
-
-                    <button class="python-btn">Explore Python</button>
-                    <!-- Carousel -->
-                    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <div class="python-img">
-                              <img src="assets\images\394676_ce3d_5.jpg" class="d-block w-100" alt="python image">
-                              <h1>Learn Python: The Complete Python Programming Course</h1>
-                            </div>
-                            <div class="python-img"><img src="assets\images\396876_cc92_7.jpg" class="d-block w-100" alt="python image"></div>
-                            <div class="python-img"><img src="assets\images\405878_e5a0_3.jpg" class="d-block w-100" alt="python image"></div>
-                            <div class="python-img"><img src="assets\images\482754_7146_6.jpg" class="d-block w-100" alt="python image"></div>
-                            <div class="python-img"><img src="assets\images\519554_da68_6.jpg" class="d-block w-100" alt="python image"></div>
-                          </div>
-                          <div class="carousel-item">
-                            <img src="..." class="d-block w-100" alt="...">
-                          </div>
-                        </div>
-                        <button class="carousel-control-prev carousel-btn-left" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next carousel-btn-right" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                      </div>
-                </div>
+            <div class="python-img other-courses-img">
+              <img src="assets\images\851712_fc61_6.jpg" class="d-block w-100" alt="python image">
+              <h1>The Complete JavaScript Course 2023: From Zero to Expert!</h1>
+              <p class="tutor">Jonas Schmedtmann</p>
+              <p class="rating">4.7
+                <span class="stars">
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+                <span class="number-of-users">(158,306)</span>
+              </p>
+              <p><strong>&#8358;4,500</strong> <span><s>&#8358;34,900</s></span></p>
+              <p class="bestseller">Bestseller</p>
             </div>
-        </section>
-    </main>
+            <div class="python-img other-courses-img">
+              <img src="assets\images\1362070_b9a1_2.jpg" class="d-block w-100" alt="python image">
+              <h1>React - The Complete Guide (incl Hooks, React Router, Redux)</h1>
+              <p class="tutor">Academind by Maximilian Schwarzmüller,...</p>
+              <p class="rating">4.6
+                <span class="stars">
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+                <span class="number-of-users">(168,263)</span>
+              </p>
+              <p><strong>&#8358;3,500</strong> <span><s>&#8358;29,900</s></span></p>
+              <p class="bestseller">Bestseller</p>
+            </div>
+            <div class="python-img other-courses-img">
+              <img src="assets\images\2196488_8fc7_10.jpg" class="d-block w-100" alt="python image">
+              <h1>Ultimate AWS Certified Solutions Architect Associate...</h1>
+              <p class="tutor">Stephane Maarek | AWS Certified Cloud...</p>
+              <p class="rating">4.7
+                <span class="stars">
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+                <span class="number-of-users">(155,812)</span>
+              </p>
+              <p><strong>&#8358;3,200</strong> <span><s>&#8358;6,500</s></span></p>
+              <p class="bestseller">Bestseller</p>
+            </div>
+          </div>
+          <!-- Second Carousel Item -->
+          <div class="carousel-item">
+            <div class="python-img other-courses-img">
+              <img src="assets\images\2196488_8fc7_10.jpg" class="d-block w-100" alt="python image">
+              <h1>Ultimate AWS Certified Solutions Architect Associate...</h1>
+              <p class="tutor">Stephane Maarek | AWS Certified Cloud...</p>
+              <p class="rating">4.7
+                <span class="stars">
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+                <span class="number-of-users">(155,812)</span>
+              </p>
+              <p><strong>&#8358;3,200</strong> <span><s>&#8358;6,500</s></span></p>
+              <p class="bestseller">Bestseller</p>
+            </div>
+            <div class="python-img other-courses-img">
+              <img src="assets\images\567828_67d0.jpg" class="d-block w-100" alt="python image">
+              <h1>2022 Complete Python Bootcamp From Zero to Hero...</h1>
+              <p class="tutor">Jose Portilla</p>
+              <p class="rating">4.6
+                <span class="stars">
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+                <span class="number-of-users">(443,103)</span>
+              </p>
+              <p><strong>&#8358;4,500</strong> <span><s>&#8358;34,900</s></span></p>
+              <p class="bestseller bestseller-hidden">Bestseller</p>
+            </div>
+            <div class="python-img other-courses-img">
+              <img src="assets\images\3142166_a637_3.jpg" class="d-block w-100" alt="python image">
+              <h1>[NEW] Ultimate AWS Certified Cloud Practitioner - 2022</h1>
+              <p class="tutor">Stephane Maarek | AWS Certified Cloud...</p>
+              <p class="rating">4.7
+                <span class="stars">
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+                <span class="number-of-users">(118,085)</span>
+              </p>
+              <p><strong>&#8358;3,500</strong> <span><s>&#8358;13,500</s></span></p>
+              <p class="bestseller">Bestseller</p>
+            </div>
+            <div class="python-img other-courses-img">
+              <img src="assets\images\625204_436a_3.jpg" class="d-block w-100" alt="python image">
+              <h1>The Web Developer Bootcamp 2022</h1>
+              <p class="tutor">Colt Steele</p>
+              <p class="rating">4.7
+                <span class="stars">
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+                <span class="number-of-users">(249,889)</span>
+              </p>
+              <p><strong>&#8358;3,900</strong> <span><s>&#8358;29,900</s></span></p>
+              <p class="bestseller bestseller-hidden">Bestseller</p>
+            </div>
+            <div class="python-img other-courses-img">
+              <img src="assets\images\793796_0e89_2.jpg" class="d-block w-100" alt="python image">
+              <h1>Microsoft Excel - Excel from Beginner to Advanced</h1>
+              <p class="tutor">Kyle Pew, Office Newb</p>
+              <p class="rating">4.7
+                <span class="stars">
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+                <span class="number-of-users">(341,420)</span>
+              </p>
+              <p><strong>&#8358;3,900</strong> <span><s>&#8358;17,900</s></span></p>
+              <p class="bestseller">Bestseller</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev carousel-btn-left" type="button"
+          data-bs-target="#carouselExampleControlsNoTouching2" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next carousel-btn-right" type="button"
+          data-bs-target="#carouselExampleControlsNoTouching2" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="featured-topics">
+      <h1>Featured topics by category</h1>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Development</th>
+            <th>Business</th>
+            <th>IT and Software</th>
+            <th>Design</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td><a href="#">Python</a> <br>
+              <span class="table-details">36,354,994 students</span>
+            </td>
+            <td><a href="#">Financial Analysis</a> <br>
+              <span class="table-details">1,195,282 students</span>
+            </td>
+            <td><a href="#">AWS Certification</a> <br>
+              <span class="table-details">6,078,244 students</span>
+            </td>
+            <td><a href="#">Photoshop</a> <br>
+              <span class="table-details">10,909,736 students</span>
+            </td>
+          </tr>
+
+          <tr>
+            <td><a href="#">Web Development</a> <br>
+              <span class="table-details">11,415,615 students</span>
+            </td>
+            <td><a href="#">SQL</a> <br>
+              <span class="table-details">5,977,561 students</span>
+            </td>
+            <td><a href="#">Ethical Hacking</a> <br>
+              <span class="table-details">10,931,066 students</span>
+            </td>
+            <td><a href="#">Graphic Design</a> <br>
+              <span class="table-details">3,381,052 students</span>
+            </td>
+          </tr>
+
+          <tr>
+            <td><a href="#">Machine Learning</a> <br>
+              <span class="table-details">7,070,015 students</span>
+            </td>
+            <td><a href="#">PMP</a> <br>
+              <span class="table-details">1,733,398 students</span>
+            </td>
+            <td><a href="#">CyberSecurity</a> <br>
+              <span class="table-details">3,998,037 students</span>
+            </td>
+            <td><a href="#">Drawing</a> <br>
+              <span class="table-details">2,410,849 students</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <button class="featured-topics-btn">Explore more topics</button>
+    </section>
+
+    <section class="instructor-section">
+      <div class="instructor-image-container">
+        <img src="assets\images\instructor-1x-v3.jpg" alt="Become an instructor image">
+      </div>
+      <div class="instructor-text-container">
+        <h1>Become an instructor</h1>
+        <p>Instructors from around the world teach millions of students on Udemy.
+          We provide the tools and skills to teach what you love.
+        </p>
+        <button class="instructor-btn">Start teaching today</button>
+      </div>
+    </section>
+
+    <section class="supporters-section">
+      <div class="supporters-text-container">
+        <h1>Trusted by over 13,400 great teams</h1>
+        <p>Leading companies use the same courses to help employees keep their skills fresh.</p>
+      </div>
+
+      <div class="supporters-logos-container">
+        <img src="assets\images\nasdaq-dark.svg" alt="Nasdaq logo" class="supporters-logos">
+        <img src="assets\images\volkswagen-dark.svg" alt="Volkswagen logo" class="supporters-logos">
+        <img src="assets\images\box-dark.svg" alt="Box logo" class="supporters-logos">
+        <img src="assets\images\netapp-dark.svg" alt="NetApp logo" class="supporters-logos">
+        <img src="assets\images\eventbrite-dark.svg" alt="Eventbrite logo" class="supporters-logos">
+        <img src="assets\images\tcs-dark.svg" alt="TCS logo" class="supporters-logos">
+      </div>
+    </section>
+
+    <section class="udemy-business">
+      <div class="udemy-business-container">
+        <div class="ud-text-container">
+          <img src="assets\images\logo-ub.svg" alt="Udemy business logo" class="udemy-business-logo">
+          <p>Get unlimited access to 19,000+ of Udemy’s top courses for your team.
+            Learn and improve skills across business, tech, design, and more.
+          </p>
+          <button class="ud-btn">Get Udemy Business</button>
+        </div>
+
+        <div class="ud-image-container">
+          <img src="assets\images\ub-1x-v3.jpg" alt="Udemy business image">
+        </div>
+      </div>
+
+      <div class="transform-container">
+        <div class="transform-image-container">
+          <img src="assets\images\transform-1x-v3.jpg" alt="Transform image">
+        </div>
+
+        <div class="transform-text-container">
+          <h1>Transform your life through education</h1>
+          <p>Learners around the world are launching new careers,
+            advancing in their fields, and enriching their lives.
+          </p>
+          <button class="transform-btn">Find out how</button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer__row__1">
+        <div class="column__1">
+          <p><a href="#" class="footer-links">Udemy Business</a></p>
+          <p><a href="#" class="footer-links">Teach on Udemy</a></p>
+          <p><a href="#" class="footer-links">Get the app</a></p>
+          <p><a href="#" class="footer-links">About us</a></p>
+          <p><a href="#" class="footer-links">Contact us</a></p>
+        </div>
+        <div class="column__2">
+          <p><a href="#" class="footer-links">Careers</a></p>
+          <p><a href="#" class="footer-links">Blog</a></p>
+          <p><a href="#" class="footer-links">Help and Support</a></p>
+          <p><a href="#" class="footer-links">Affiliate</a></p>
+          <p><a href="#" class="footer-links">Investors</a></p>
+        </div>
+        <div class="column__3">
+          <p><a href="#" class="footer-links">Terms</a></p>
+          <p><a href="#" class="footer-links">Privacy policy</a></p>
+          <p><a href="#" class="footer-links">Cookie settings</a></p>
+          <p><a href="#" class="footer-links">Sitemap</a></p>
+          <p><a href="#" class="footer-links">Accesibility statement</a></p>
+        </div>
+        <div class="column__4">
+          <p><a href="#" class="footer-links">Udemy Business</a></p>
+          <p><a href="#" class="footer-links">Teach on Udemy</a></p>
+          <p><a href="#" class="footer-links">Get the app</a></p>
+          <p><a href="#" class="footer-links">About us</a></p>
+          <p><a href="#" class="footer-links">Contact us</a></p>
+        </div>
+        <div class="column__5">
+          <button class="footer-lang-btn">
+            <i class="fa-solid fa-globe"></i> English
+          </button>
+        </div>
+      </div>
+      <div class="footer__row__2">
+        <img src="assets\images\Udemy-Symbol-removebg-preview.png" alt="Udemy logo" class="footer-logo">
+        <p class="footer-copyright">© 2022 Udemy, Inc.</p>
+      </div>
+    </footer>
+  </main>
 
 
 
-    <!-- Font Awesome Icons -->
-    <script src="https://kit.fontawesome.com/026e0f9978.js" crossorigin="anonymous"></script>
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
